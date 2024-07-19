@@ -9,7 +9,7 @@ interface NavItemProps {
 
 const NavItem = ({ parentBlockClass, image, description, onClick }: NavItemProps) => {
   return (
-    <a href="!#" onClick={onClick} className={`nav-item ${parentBlockClass}`}>
+    <a href="#" onClick={onClick} className={`nav-item ${parentBlockClass}`}>
       <img src={image} alt="" className="nav-item__icon" />
       <span className="nav-item__description">{description}</span>
     </a>

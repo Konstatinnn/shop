@@ -31,17 +31,17 @@ const Menu = forwardRef<HTMLDivElement>((_, ref) => {
 
   return (
     <div ref={ref} className={`menu`} onClick={chooseCategoryHandler}>
-      <a href="!#" className="menu__link" data-category="food">
+      <a href="#" className="menu__link" data-category="food">
         <img src={foodIcom} alt="" className="menu__icon" />
         Еда
       </a>
 
-      <a href="!#" className="menu__link" data-category="clothing">
+      <a href="#" className="menu__link" data-category="clothing">
         <img src={clothes} alt="" className="menu__icon" />
         Одежда
       </a>
 
-      <a href="!#" className="menu__link" data-category="electronics">
+      <a href="#" className="menu__link" data-category="electronics">
         <img src={electronicIcon} alt="" className="menu__icon" />
         Электроника
       </a>

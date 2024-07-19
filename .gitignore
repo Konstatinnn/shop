@@ -56,3 +56,6 @@ src/assets/**/*.svg
 package-lock.json
 tsconfig.json
 tsconfig.eslint.json
+
+
+.prettierignore
