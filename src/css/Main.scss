@@ -1,0 +1,14 @@
+.main {
+  // .main__container
+
+  &__container {
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    min-height: 800px;
+  }
+}

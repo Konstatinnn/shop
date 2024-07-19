@@ -1,0 +1,23 @@
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 600px) {
+    flex-direction: row;
+  }
+  // .nav-item__icon
+
+  &__icon {
+    width: 27px;
+    height: 27px;
+    @media (max-width: 600px) {
+      margin-right: 15px;
+    }
+  }
+
+  // .nav-item__description
+
+  &__description {
+  }
+}
